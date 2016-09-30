@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/azu/AZEncodeURIComponent"
   s.license          = 'MIT'
   s.author           = {"azu" => "azuciao@gmail.com"}
-  s.source           = {:git => "https://github.com/azu/AZEncodeURIComponent.git", :tag => s.version.to_s}
+  s.source           = {:git => "https://github.com/bigbearlabs/AZEncodeURIComponent.git", :tag => s.version.to_s}
   s.social_media_url = 'https://twitter.com/azu_re'
   spec.ios.deployment_target = '6.0'
   spec.osx.deployment_target = '10.10'
