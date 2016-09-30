@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
   s.author           = {"azu" => "azuciao@gmail.com"}
   s.source           = {:git => "https://github.com/bigbearlabs/AZEncodeURIComponent.git", :tag => s.version.to_s}
   s.social_media_url = 'https://twitter.com/azu_re'
-  spec.ios.deployment_target = '6.0'
-  spec.osx.deployment_target = '10.10'
+  s.ios.deployment_target = '6.0'
+  s.osx.deployment_target = '10.10'
   s.requires_arc     = true
 
   s.source_files = 'Pod/Classes'
